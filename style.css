@@ -1,0 +1,76 @@
+body{
+background-color:  hsl(0, 0%, 95%);
+text-align: center;
+}
+h2{
+	color: hsl(0, 0%, 95%);
+}
+p{
+	color:  hsla(0, 0%, 100%, 0.75);
+     line-height: 2;
+     font-family: sans-serif;
+     font-weight: 400px;
+	}
+.sedan{
+	width: 200px;
+	height: 400px;
+	position: relative;
+	text-align: left;
+	background-color: hsl(31, 77%, 52%);
+    padding: 36px;
+    display:inline-block;
+    top: 100px;
+     border-bottom-left-radius: 20px;
+	 border-top-left-radius: 20px; 
+    font-family: sans-serif;
+     font-weight: 400px;
+}
+.suv{
+	width: 200px;
+	height: 400px;
+	position: relative;
+	text-align: left;
+	background-color:  hsl(184, 100%, 22%);
+    padding: 36px;
+    display: inline-block;
+    top: 100px;    
+    margin: -4px;
+     font-family: sans-serif;
+     font-weight: 400px;
+    
+}
+.luxury{
+	width: 200px;
+	height: 400px;
+position: relative;
+	text-align: left;
+	background-color:  hsl(179, 100%, 13%);
+	padding: 36px;
+	display: inline-block;
+	 top: 100px;
+	 border-bottom-right-radius: 20px;
+	 border-top-right-radius: 20px; 
+}
+.sedan-btn{
+	margin-top: 50px;
+	padding: 20px 48px;
+	border-radius:  30px;
+background-color:  hsl(0, 0%, 95%);
+color: hsl(31, 77%, 52%);
+
+}
+.suv-btn{
+	margin-top: 50px;
+	padding: 20px 48px;
+	border-radius:  30px;
+background-color:  hsl(0, 0%, 95%);
+color:  hsl(184, 100%, 22%);
+
+}
+.luxury-btn{
+		margin-top: 50px;
+	padding: 20px 48px;
+	border-radius:  30px;
+background-color:  hsl(0, 0%, 95%);
+color:  hsl(179, 100%, 13%);
+}
